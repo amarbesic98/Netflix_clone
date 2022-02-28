@@ -1,0 +1,922 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* HEADER */
+.showcase {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background: url('assets/slika1.jpg') no-repeat center center/cover;
+}
+.showcase::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.6);
+	box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+/*NAVBAR*/
+.showcase-top {
+	position: relative;
+	z-index: 2;
+    padding: 26px 0px 0px 55px;
+}
+.showcase-top img{
+    height: 40px;
+}
+.showcase-top select{
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+    padding: 10px 14px 10px 14px;
+    float: right;
+    position: absolute;
+    right: 175px;
+}
+.showcase-top .button{
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 22px 10px 22px;
+    border-radius: 3px;
+    float: right;
+    position: relative;
+    right: 55px;
+    text-decoration: none;
+  
+}
+
+.showcase-top select option{
+    color: black;
+}
+/*GET STARTED*/
+.showcase .showcase-text{
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    width: 100%;
+}
+.showcase .showcase-text h1,p{
+    color: white;
+}
+.showcase .showcase-text h1{
+    font-size: 3.9rem;
+    
+}
+.showcase .showcase-text .first-text{
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
+.showcase .showcase-text .second-text{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.showcase .showcase-text input{
+    width: 30%;
+    padding: 22px;
+    border: none;
+    
+    outline: none;
+    margin-top: 15px;
+}
+.showcase .showcase-text button{
+    padding: 22px;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    margin-left: -0.3%;
+    font-weight: bold;
+    width: 10%;
+}
+
+
+/* MAIN */
+    /*uzivaj */
+    .main-section .section-container{
+        border-top: 8px solid #222;
+        background-color: black;
+        display: flex;
+        padding: 0px 12%;
+        height: 480px;
+    }
+    .main-section .section-container .left{
+        
+        padding-top: 10%;
+        padding-right: 2%;
+        width: 90%;
+    }
+    .main-section .section-container .left h1{
+        color: white;
+        font-size: 3.125rem;
+
+    }
+    .main-section .section-container .left h3{
+        color: white;
+        font-size: 1.625rem;
+        font-weight: normal;
+        margin-top: 5%;
+        width: 95%;
+        
+    }
+    .main-section .section-container .right{
+        overflow: hidden;
+        position: relative;
+        width: 80%;
+        height: 480px;
+       
+    }
+    .main-section .section-container .right img{
+        position: absolute;
+        width: 100%;
+        margin-top: 10%;
+    }
+    .main-section .section-container .right .video-1{
+        margin-left: 13%;
+        margin-top: 25.5%;
+        width: 73%;
+    }
+    /*preuzmi*/
+    .main-section .section2-container{
+        border-top: 8px solid #222;
+        background-color: black;
+        display: flex;
+        padding: 0px 90px;
+        padding-bottom: 90px;
+        height: 480px;
+    }
+    .main-section .section2-container .left2 {
+        width:60%;
+    }
+    .main-section .section2-container .left2 img{
+        width: 75%;
+        height: 100%;
+    }
+    .main-section .section2-container .left2 .box{
+        border: 2px solid rgba(255,255,255,.25);
+        background-color: black;
+        border-radius: 10px;
+        width: 50%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        margin-top: -20%;
+        margin-left: 90px;
+    }
+    .main-section .section2-container .left2 .box .boxshot{
+        width: 15%;
+    }
+    .main-section .section2-container .left2 .box p{
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    .main-section .section2-container .left2 .box p a{
+        text-decoration: none;
+        color: blue;
+    }
+    .main-section .section2-container .left2 .box .download-gif{
+        width: 3em;
+        height: 3em;
+        position: absolute; 
+        right: 0;
+    }
+    .main-section .section2-container .right2{
+        padding-top: 10%;
+        padding-right: 2%;
+        width: 60%;
+       
+    }
+    .main-section .section2-container .right2 h1{
+        color: white;
+        font-size: 3.125rem;
+    }
+    .main-section .section2-container .right2 h3{
+        color: white;
+        font-size: 1.625rem;
+        font-weight: normal;
+        margin-top: 5%;
+        width: 90%;
+    }
+    /*gledaj*/
+    .main-section .section-container .right .video-2{
+        margin-left: 19%;
+        margin-top: 18%;
+        width: 61%;
+    }
+
+    
+    /*djeca*/
+ 
+    .main-section .section2-container .left2 .slikaVelika{
+        width: 10%;
+        height: 90%; 
+        margin-left: 150px;
+        width: 70%;
+        margin-top: 60px;
+    }
+    
+
+
+/*QUESTION */
+.question-container{
+    background-color: black;
+    border-top: 8px solid #222;
+    padding-top: 60px;
+}
+.question-container h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+.question-container button{
+    border: none;
+    background-color: #303030;
+    color: white;
+    width: 60%;
+    padding: 16px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+.question-container button img{
+    width: 3%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    right: 20px;
+}
+.question-container .answer1,
+.answer2,
+.answer3,
+.answer4,
+.answer5,
+.answer6{
+    background-color: #303030;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 20px;
+    display: none;
+}
+
+
+/*EMAIL*/
+.email-address-container{
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: black;
+}
+.email-address-container input{
+    width: 35%;
+    padding: 22px;
+    border: none;
+    margin-top: 0.5%;
+    outline: none;
+}
+.email-address-container button{
+    padding: 22px;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    margin-left: -0.3%;
+    font-weight: bold;
+}
+
+
+/* FOOTER  */
+footer{
+    background-color: black;
+    border-top: 8px solid #222;
+    padding-top: 5%;
+}
+footer h5{
+    color: gray;
+    text-align: center;
+    padding-bottom: 1%;
+    font-size: 16px;
+    margin-right: 63%;
+}
+  footer .content{
+    max-width: 1350px;
+    margin: 0px 90px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  footer .content .box{
+    width: 20%;
+    transition: all 0.4s ease;
+  }
+  footer .content p{
+    
+    color: gray;
+  }
+  footer .content .middle{
+    padding-left: 80px;
+  }
+  footer .content .middle a{
+    line-height: 32px;
+    color: gray;
+    text-decoration: none;
+  }
+  footer .content .middle a:hover{
+      text-decoration: underline;
+  }
+  footer .content .middle select{
+      padding: 8px;
+      background-color: transparent;
+      border: 1px solid grey;
+      color: white;
+  }
+  footer .content .middle select option{
+      background-color: black;
+  }
+
+/*RESPONSIVE CSS CODE*/
+@media (max-width:1200px) {
+    .showcase .showcase-text h1{
+        font-size: 3.4rem;
+
+    }
+    .main-section .section-container .left h1{
+        color: white;
+        font-size: 2.125rem;
+    }
+}
+@media (max-width:1100px) {
+
+    /*UZIVAJ*/
+    .showcase .showcase-text h1{
+        font-size: 3.4rem;
+    }
+    .main-section .section-container .left h1{
+        margin-top: 50px;
+        color: white;
+        font-size: 2rem;
+
+    }
+    .main-section .section-container .left h3{
+        color: white;
+        font-size: 1.425rem;
+        font-weight: normal;
+        margin-top: 5%;
+        width: 95%;
+        
+    }
+    .main-section .section-container .right img{
+        position: absolute;
+        width: 100%;
+        height: 280px;
+        margin-top: 24%;
+    }
+    .main-section .section-container .right .video-1{
+        margin-left: 13%;
+        margin-top: 39.5%;
+        width: 93%;
+       
+    }
+
+    /*PREUZMI*/
+    .main-section .section2-container .left2 img{
+        width: 95%;
+        height: 100%;
+    }
+    .main-section .section2-container .left2 .box{
+     
+        width: 70%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        margin-top: -30%;
+        margin-left: 45px;
+    }
+
+    .main-section .section2-container .right2 h1{
+        margin-top: 50px;
+        color: white;
+        font-size: 2rem;
+    }
+    .main-section .section2-container .right2 h3{
+        color: white;
+        font-size: 1.425rem;
+        font-weight: normal;
+        margin-top: 5%;
+        width: 90%;
+        text-align: center;
+    }
+
+    .main-section .section-container .right .img2{
+        position: absolute;
+    }
+    /*gledaj*/
+    .main-section .section-container .right .video-2{
+        margin-top: 30px;
+        height: 300px;
+        width: 60%;
+        
+       
+
+    }
+
+    /*djeca*/
+    .main-section .section2-container .left2 .slikaVelika{
+        width: 10%;
+        height: 90%; 
+        margin-left: 100px;
+        width: 70%;
+        margin-top: 60px;
+    }
+
+    footer .content .middle{
+      padding-left: 50px;
+    }
+}
+
+
+
+
+
+  
+@media (max-width: 943px){
+    /*GET STARTED*/
+    .showcase .showcase-text{
+        position: relative;
+        top: 90px;
+       
+    }
+    .showcase .showcase-text h1{
+        font-size: 2.8rem;
+        
+    }
+    .showcase .showcase-text .first-text{
+        font-size: 1.5rem;
+    }
+    .showcase .showcase-text .second-text{
+        font-size: 1rem;
+    }
+    .showcase .showcase-text input{
+        padding: 17px;
+        width: 55%;
+    }
+    .showcase .showcase-text button{
+        display: block;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 1.5%;
+        padding: 12px;
+    }
+    /*Uzivaj*/
+    .main-section .section-container{
+        display: block;
+        height: 580px;
+    }
+    .main-section .section-container .left{
+        width: 100%;
+        margin-top: -50px;
+        text-align: center;
+    }
+    .main-section .section-container .right{
+        width: 100%;
+    }
+    .main-section .section-container .right img {
+        margin-top: -10px;
+    }
+    .main-section .section-container .right .video-1{
+        margin-top: -10px;
+
+    }
+    /*DOWNLOAD YOU SHOW TO WATCH OFFLINE*/
+    .main-section .section2-container{
+        display: block;
+    }
+    .main-section .section2-container .left2{
+        width: 100%;
+    }
+    .main-section .section2-container .right2{
+        width: 100%;
+        text-align: center;
+    }
+    /*EMAIL ADDRESS*/
+    .email-address-container input{
+        padding: 17px;
+        width: 55%;
+    }
+    .email-address-container button{
+        display: block;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 1.5%;
+        padding: 12px;
+    }
+    /* FOOTER SECTION */
+    footer .content .box{
+        width: 50%;
+      }
+}
+
+@media (max-width:  774px){
+    /* UZIVAJ */
+    .main-section .section-container{
+        padding-bottom: 0px;
+    }
+}
+
+@media(max-width: 659px){
+    /*NAVBAR*/
+    .showcase-top{
+        padding: 26px 0px 0px 25px;
+    }
+    .showcase-top img{
+        height: 25px;
+    }
+    .showcase-top .button{
+        position: relative;
+        right: -10px;
+        padding: 6px 10px;
+    }
+    .showcase-top select{
+        position: relative;
+        
+        padding: 6px 10px;
+        right: 175px;
+    }
+    
+    .showcase .showcase-text{
+        position: relative;
+        top: 60px;
+    }
+    .showcase .showcase-text h1{
+        font-size: 2rem;
+        padding: 50px;
+        padding-bottom: 0px;
+    }
+    .showcase .showcase-text .first-text{
+        font-size: 1.5rem;
+    }
+    .showcase .showcase-text .second-text{
+        font-size: 1rem;
+    }
+    .showcase .showcase-text input{
+        padding: 14px;
+        width: 70%;
+    }
+    /* QUESTION */
+    .question-container button{
+        width: 100%;
+    }
+    .question-container .answer1,
+    .answer2,
+    .answer3,
+    .answer4,
+    .answer5,
+    .answer6{
+        width: 100%;
+    }
+    /*EMAIL*/
+    .email-address-container input{
+        padding: 14px;
+        width: 70%;
+    }
+}
+
+@media (max-width: 430px){
+    .showcase{
+        height: 480px;
+    }
+    .showcase .showcase-text .big-title{
+        font-size: 23px;
+        margin-top: -50px;
+        color: white;
+        
+    }
+    .showcase .showcase-text .first-text{
+        
+        font-size: 16px;
+        
+    }
+    .showcase .showcase-text .second-text{
+        
+        font-size: 14px;
+        width: 60%;
+        margin-left: 70px;
+    }
+    .showcase .showcase-top select {
+        right: 110px;
+        padding: 5px 5px;
+
+    }
+ 
+    .showcase .showcase-top .button {
+        margin-right: -30px;
+        padding: 4px 5px;
+
+    }
+    .showcase .showcase-text input{
+        padding: 12px;
+        width: 80%;
+    }
+    .showcase .showcase-text button {
+        width: 30%;
+        padding: 5px 6px 5px 30px;
+       
+    }
+    /*uzivaj*/
+    .main-section .section-container {
+        height:480px;
+
+    }
+
+    .main-section .section-container .left {
+        height: 380px;
+   
+        
+    }
+    .main-section .section-container .left h1 {
+        font-size: 23px;
+        margin-top: -20px;
+
+    }
+    .main-section .section-container .left h3{
+        font-size: 17px;
+        font-weight: normal;
+        width: 100px;
+        margin-left: -20px;
+        text-align: center;
+
+    }
+    
+    .main-section .section-container .right {
+        
+        position: relative;
+        width: 100%;
+        height: 200px;
+    }
+    .main-section .section-container .right  img {
+        position: absolute;
+        height: auto;
+        width: 350px;
+        margin-top: -30px;
+        margin-left: -30px;
+        z-index: 2;
+    
+    }
+    .main-section .section-container .right  .video-1 {
+        position: absolute;
+        width: 90%;
+        margin-top: 15.5%;
+        margin-left: 15px;
+
+
+     
+    }
+
+
+
+    /*preuzmi */
+    .main-section .section2-container {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 480px;
+        width: 100%;
+
+    }
+    .main-section .section2-container .right2 {
+        width: 380px;
+        height: 300px;
+        margin-left: -90px;
+        margin-top: -20px;
+        
+       
+     
+    }
+    .main-section .section2-container .right2 h1 {
+        font-size: 23px;
+        width: 100%;
+        margin-top: -10px;
+        
+    }
+    .main-section .section2-container .right2 h3 {
+        font-size: 16px;
+        width: 100%;
+
+        
+    }
+    .main-section .section2-container .left2 {
+        width: 100%;
+        height: 180px;
+       
+      
+    }
+    .main-section .section2-container .left2 .big-photo {
+        margin-top: -40px;
+        width: 330px;
+        height: 280px;
+        margin-left: -65px;
+
+    }
+    .main-section .section2-container .left2 .box{
+        width: 250px;
+        margin-left: -30px;
+        margin-top: -100px;
+      
+    }
+
+    /*GLEDAJ BILO GDJE */
+
+
+    .main-section .section-container .right {
+        position: relative;
+        width: 100%;
+        height: 280px;
+    }
+    .main-section .section-container .left {
+        height: 50%;
+        color: white;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .main-section .section-container .left h1 {
+        
+        font-size: 23px;
+        margin-top: 20px;
+        text-align: center;
+        
+ 
+    }
+    .main-section .section-container .left h3{
+        font-size: 17px;
+        font-weight: normal;
+        width: 330px;
+        margin-left: -20px;
+        text-align: center;
+        margin-top: 10px;
+
+    }
+
+    .main-section .section-container .right  img {
+        position: absolute;
+        height: auto;
+        width: 350px;
+        margin-top: -10px;
+        margin-left: -30px;
+        z-index: 2;
+        
+       
+       
+    }
+    .main-section .section-container .right  .video-2 {
+        position: absolute;
+        width: 80%;
+        margin-top: -25%;
+        margin-left: 30px;
+        height: 300px;
+        
+    }
+
+    /*djeca*/
+    
+  .main-section .section2-container {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 480px;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+.main-section .section2-container .right2 {
+    width: 380px;
+    height: 300px;
+    margin-left: -90px;
+    margin-top: 30px;
+    
+    
+   
+ 
+}
+.main-section .section2-container .right2 h1 {
+    font-size: 23px;
+    width: 100%;
+    
+}
+.main-section .section2-container .right2 .h3tekst {
+    font-size: 17px;
+    width: 100%;
+    margin-left: 40px;
+    
+    
+
+    
+}
+.main-section .section2-container .left2 {
+    width: 100%;
+    height: 180px;
+   
+}
+.main-section .section2-container .left2 .slikaVelika {
+    width: 310px;
+    height: 240px;
+    margin-left: -50px;
+    margin-top: -5px;
+}
+/*pitanja*/
+.question-container h1 {
+    font-size: 23px;
+    margin-top: -20px;
+    
+}
+.question-container button{
+ 
+    border: none;
+    background-color: #303030;
+    color: white;
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+.question-container .answer1,
+.answer2,
+.answer3,
+.answer4,
+.answer5,
+.answer6{
+    background-color: #303030;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 15px;
+    display: none;
+}
+
+    /*EMAIL */
+    .email-address-container p {
+        width: 65%;
+        margin-left: 60px;
+    }
+
+    .email-address-container input{
+        padding: 12px;
+        width: 80%;
+    }
+    /* FOOTER  */
+    footer{
+        position: relative;
+      }
+      footer h5{
+        color: gray;
+        text-align: center;
+        padding-bottom: 1%;
+        font-size: 16px;
+        width: 55%;
+        margin-top: 30px;
+        margin-left:90px ;
+    }
+
+   
+      footer .content .box{
+        width: 100%;
+        margin-top: 30px;
+      }
+      footer .content .middle{
+        padding-left: 0;
+      }
+      footer .content .box select {
+          display: none;
+      }
+}
